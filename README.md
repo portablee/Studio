@@ -1,7 +1,3 @@
-# Studio
-sitio de diseño de marcas
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
 
