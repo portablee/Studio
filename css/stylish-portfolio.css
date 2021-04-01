@@ -35,16 +35,18 @@ body {
 /* Custom Button Styles */
 
 .btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: #8d0c10;
+    padding: 8px 8px;       /* Rube */
+    font-size: 12px;        /* Rube */
+    border-radius: 10px;   /* Rube */
+    color: #695444;
+    /* background-color: #4f5974;  Rube */
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: #4f5974;
+    background-color: #836f60; /* Rube */
 }
 
 .btn-light {
@@ -158,8 +160,9 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 400px;
     background: url(../img/bg.jpg) no-repeat center center scroll;
+    /* border: 1px solid red; Rube */ 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -258,23 +261,32 @@ hr.small {
     height: 500px;
 }
 
-@media(max-width:768px) {
+@media(max-width:600px) {
     .map {
         height: 75%;
     }
-}
+    
+/* @mediaqueris rube para cambiar el tamaño de la inagen y el borde a coloro azul */
 
 .header {
     display: table;
     position: relative;
     width: 100%;
-    height: 40%;
+    height: 200px;
     background: url(../img/bg.jpg) no-repeat center center scroll;
+    /* border: 1px solid blue;  Rube*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}    
+    
+    
+
+    
+    
 }
+
 
 .map iframe {
     pointer-events: none;
